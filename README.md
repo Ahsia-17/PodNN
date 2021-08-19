@@ -6,7 +6,7 @@ Business problem: I've created a model to predict which of the 1M users have a h
 
 Choice of model: 
   1) Since the data came with some labeled data, a supervised machine learning algorithm will work beautifully.
-  2) Secondly, I had to decide which type of ML task to chooose: regression or classfication problem. This is naturally a classification problem as the target variables are binary and not a continious variable. 
+  2) Secondly, I had to decide which type of ML task to chooose: regression or classfication problem. This is naturally a classification problem as the target variables are binary and not a continuous variable. 
 
 Here are some of the steps I took and notes.
 
