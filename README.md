@@ -11,7 +11,7 @@ Choice of model:
 Here are some of the steps I took and notes.
 
   1) Loading the packages I needed
-  2) Exploratory data analysis
-  3) Light preprocessing - quick preprocessing of several columns. Gender column had issues. There were null values which I immputed. State column
+  2) Exploratory data analysis - lots of categorical variables. Many of the features had a large imbalance of classes, such as state having predominately Califronia users. If I had more time, I could have balanced them. 
+  3) Light preprocessing -  Gender column had issues. There were null values which I immputed. State column had missing values. Creating dummy variables for categorical features.
   4) Model building - standardizing columns, creating a pipeline
   5) Model evaulation - 74% recall. 95% accuracy. 91% precision and 81% F1. I also used 5 fold cross validation to ensure my model results will generalize to unseen data. Also looked at other classfication metrics such as ROC, and AUC.
