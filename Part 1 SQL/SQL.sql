@@ -35,7 +35,7 @@ where a.timestamp between '2021-08-09' and '2021-08-15'
 group by a.ads_user_id
 having sum(dwell_time) > 60
 )
-select count(distinct ads_user_id) as total_users
+select count(distinct ads_user_id) as WAUs
 from temp
 
 /* Question 3: Top 5 pieces of content from each content type consumed this week by only
